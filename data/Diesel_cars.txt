@@ -1,4 +1,0 @@
-RegistrationNumber, Make, Model, NumberOfDoors, KmPrLitre, ParticleFilter
-UP 29 8904, Dacia, Duster, 5, 19, true
-PO 93 8720, Fiat, 500, 3, 25, false
-UN 29 8904, BMW, X5, 5, 15, false

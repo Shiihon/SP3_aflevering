@@ -1,0 +1,10 @@
+Type, RegistrationNumber, Make, Model, NumberOfDoors, KmPrLitre, hasParticleFilter, BatteryCapacity, MaxRange
+Gasoline, IN 23 8475, BMW, 520d, 5, 14
+Gasoline, BK 23 9071, Mercedes, GLE, 5, 35
+Gasoline, AU 50 0835, Dacia, Duster Prestige, 5, 10
+Diesel, UP 29 8904, Dacia, Duster, 5, 19, true
+Diesel, PO 93 8720, Fiat, 500, 3, 25, false
+Diesel, UN 29 8904, BMW, X5, 5, 15, false
+Electric, EN 21 1098, Hyundai, Kona, 5, 64, 449
+Electric, DA 26 8946, Seat, Mii ELECTRIC, 3, 37, 260
+Electric, KP 11 0982, Citroën, ë-C4 ELECTRIC, 5, 15, 343
