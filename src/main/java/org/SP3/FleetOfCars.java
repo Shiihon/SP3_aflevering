@@ -17,7 +17,7 @@ public class FleetOfCars {
         return totalRegistrationFee;
     }
 
-    public void loadCars (ArrayList<String> cars) {
+    public void loadCars(ArrayList<String> cars) {
         for (String line : cars) {
             String[] carInfo = line.split(",");
 
@@ -46,7 +46,7 @@ public class FleetOfCars {
                 }
 
                 if (car != null) {
-                    fleet.add(car);
+                   addCar(car);
                 }
             }
         }

@@ -29,10 +29,10 @@ public class GasolineCar extends AFuelCar {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return super.toString() +
                 "\nkmPrLitre: " + getKmPrLitre() + "\n" +
                 "Fuel: " + getFuelType() + "\n" +
-               "Registration Fee: " + getRegistrationFee();
+                "Registration Fee: " + getRegistrationFee();
     }
 }
