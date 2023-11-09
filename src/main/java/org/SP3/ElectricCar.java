@@ -1,7 +1,7 @@
 package org.SP3;
 
 public class ElectricCar extends ACar {
-    private final int batteryCapacity; // spørg omkring "float" ("int" giver ikke mening)
+    private final int batteryCapacity;
     private final int maxRange;
 
     public ElectricCar(String registrationNumber, String make, String model, int numberOfDoors, int batteryCapacity, int maxRange) {

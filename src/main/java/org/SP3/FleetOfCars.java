@@ -1,5 +1,6 @@
 package org.SP3;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 
 public class FleetOfCars {
@@ -54,9 +55,11 @@ public class FleetOfCars {
 
     @Override
     public String toString() {
+        NumberFormat formatter = NumberFormat.getCurrencyInstance();
+
         String carsInList = "";
         for (Car car : fleet)
             carsInList += car + "\n\n";
-        return carsInList + "There are a total of " + fleet.size() + " cars." + "\nTotal registration fee for the fleet " + getTotalRegistrationFeeForFleet();
+        return carsInList + "There are a total of " + fleet.size() + " cars." + "\nThe total registration fee for the fleet is  " + formatter.format(getTotalRegistrationFeeForFleet());
     }
 }
