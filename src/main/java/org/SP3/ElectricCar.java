@@ -24,7 +24,7 @@ public class ElectricCar extends ACar {
         return whPrKm;
     }
 
-    @Override// FIX IT!!!!
+    @Override
     public int getRegistrationFee() {
         int kmPrLitre = (int) (100 / (getWhPrKm() / 91.25));
 
